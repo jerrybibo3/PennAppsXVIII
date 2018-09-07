@@ -1,0 +1,3 @@
+This is just adding a file on my branch.
+In this branch I added this file.
+I will then merge this branch to master and remove this file directly from the master branch.
