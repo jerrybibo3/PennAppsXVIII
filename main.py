@@ -6,5 +6,8 @@ def an_empty_function():
     # aww. how sad.
     pass
 
+def another_empty_function():
+    pass
+
 
 an_empty_function()
