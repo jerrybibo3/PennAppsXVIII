@@ -7,6 +7,7 @@ def an_empty_function():
     pass
 
 
+
 def another_empty_function():
     pass
 
@@ -14,3 +15,4 @@ def another_empty_function():
 # Here's a new comment
 
 an_empty_function()
+
