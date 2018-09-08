@@ -1,33 +1,13 @@
-import pygame as p
-import sys
-import math
-from pygame.locals import *
+from vpython import *
 
-WHITE = (255,) * 3
-BLACK = (0,) * 3
+sphere(pos=vector(1, 0, 0), radius=1, color=color.magenta)
 
-SCREEN_WIDTH = 500
-SCREEN_HEIGHT = 500
+arrow(pos=vector(1, 0, 0), axis=vector(+1, +3, -1,), color=color.green)
 
-# TODO Declare constants here
+# You can add and subtract vectors
 
-p.init()
-wS = p.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
+v1 = vector(1, 2, 3)
+v2 = vector(-3, 1, -2)
 
-
-def main():
-    while 1:
-        # TODO Put your code here
-        wS.fill(BLACK)
-        for event in p.event.get():
-            if event.type == KEYDOWN:
-                if event.key == K_ESCAPE:
-                    p.quit()
-                    sys.exit(0)
-            if event.type == QUIT:
-                p.quit()
-                sys.exit(0)
-        p.display.update()
-
-
-main()
+v3 = v1 + v2
+print(v3)
