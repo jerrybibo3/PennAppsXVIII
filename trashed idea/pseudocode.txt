@@ -1,0 +1,8 @@
+Here's how it's going to work
+
+
+from vpython import *
+
+define player as box object with very thin Z
+define
+define random sets of obstacles
